@@ -24,4 +24,4 @@ curl -fLo "$APPS_DIR/${SCALA_CLI_ARCHIVE}" $URL
 gzip -d "$APPS_DIR/${SCALA_CLI_ARCHIVE}"
 chmod +x "$APPS_DIR/scala-cli"
 
-scala-cli run -S 2.13.8  .
+scala-cli run .
