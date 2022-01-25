@@ -7,6 +7,7 @@ METALS_VERSION="0.11.1"
 mkdir -p $APPS_DIR
 
 export PATH=$PATH:/usr/local/openjdk-8/bin:$APPS_DIR
+export COURSIER_CACHE=$METALS_DIR/coursier
 
 curl -Lo $APPS_DIR/cs https://git.io/coursier-cli-linux && chmod +x $APPS_DIR/cs
 
